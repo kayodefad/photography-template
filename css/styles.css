@@ -150,6 +150,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: animated-arrow 2s cubic-bezier(0.1, 0.7, 1.0, 0.1) infinite
+}
+
+@keyframes animated-arrow {
+  from {transform: translateY(-5px)}
+  to {transform: translateY(5px)}
 }
 
 .showcase .faint-watermark {
@@ -199,7 +205,8 @@ header {
 .portfolio .portfolio-categories li.active,
 .portfolio .portfolio-categories li:hover {
   padding-bottom: 5px;
-  border-bottom: 2px solid #fff
+  border-bottom: 2px solid #9DBDB2;
+  color: #9DBDB2;
 }
 
 .portfolio .gallery img {
@@ -221,7 +228,8 @@ header {
 }
 
 .image-6 {
-  grid-row: 3 / span 2;
+  grid-row: 3 / span 1;
+  /* height: 30vw; */
   grid-column: 1 / span 3;
   display: flex
 }
