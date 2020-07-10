@@ -114,7 +114,7 @@ header {
 
 .nav-item .nav-link:hover,
 .nav-item.active {
-  background: rgba(255, 255, 255, 0.1)
+  color: #9DBDB2;
 }
 
 .showcase {
@@ -142,12 +142,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: animate-arrow 2s ease-in-out infinite;
-}
-
-@keyframes animate-arrow {
-  from {transform: translateY(-10px);}
-  to {transform: translateY(10px);}
 }
 
 .showcase .faint-watermark {
