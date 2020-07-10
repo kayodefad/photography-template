@@ -114,7 +114,7 @@ header {
 
 .nav-item .nav-link:hover,
 .nav-item.active {
-  background: #8b8a8a
+  background: rgba(255, 255, 255, 0.1)
 }
 
 .showcase {
@@ -284,10 +284,5 @@ header {
 
   .nav-item .nav-link {
     padding: 10px !important;
-  }
-
-  .nav-item .nav-link:hover,
-  .nav-item.active {
-    background: #8b8a8a;
   }
 }
