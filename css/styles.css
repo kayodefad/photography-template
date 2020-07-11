@@ -276,11 +276,12 @@ header .faint-watermark {
   background: transparent;
   margin-bottom: 30px;
   font-size: 0.8rem;
-  color: #fff
+  color: #fff;
+  padding: 0.4rem 0
 }
 
 .contact form input:focus {
-  outline: none
+  outline: none;
 }
 
 .contact form button {
