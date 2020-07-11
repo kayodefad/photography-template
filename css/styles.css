@@ -76,7 +76,7 @@ header {
   color: #fff;
   height: 100vh;
   padding-top: 20px;
-  position: relative
+  position: relative;
 }
 
 .navbar .nabar-brand {
@@ -150,13 +150,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: animated-arrow 2s cubic-bezier(0.1, 0.7, 1.0, 0.1) infinite
+  /* animation: animated-arrow 2s cubic-bezier(0.1, 0.7, 1.0, 0.1) infinite */
 }
 
-@keyframes animated-arrow {
+/* @keyframes animated-arrow {
   from {transform: translateY(-5px)}
   to {transform: translateY(5px)}
-}
+} */
 
 .showcase .faint-watermark {
   right: 20px;
